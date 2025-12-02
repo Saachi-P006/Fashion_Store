@@ -1,4 +1,5 @@
 🎀 Fashion Recommendation Website
+
 A modern web application for discovering and browsing fashion products with smart filters, smooth UI, and a clean user experience.
 
 🌟 Overview
@@ -10,6 +11,7 @@ This pivot demonstrates practical problem-solving, product thinking, and real-wo
 📸 Screenshots
 
 🎯 Core Features
+
 Smart Search Bar — instantly filters through products by name, brand or category.
 Gender Toggle (Women / Men) — dynamically switches entire sections and filters.
 Category Filters — curated tags for quick browsing.
@@ -19,6 +21,7 @@ Clean Navbar — simple, intuitive UI with a modern look.
 Fully Responsive Design — works smoothly across desktop, tablet, mobile.
 
 🛠️ Tech Stack
+
 Frontend
 React.js
 CSS3
@@ -33,6 +36,7 @@ Git & GitHub
 VS Code
 
 📌 Future Improvements 
+
 Add user authentication (Login/Signup)
 Replace static dataset with a proper API (future-ready backend)
 ML-based recommendation system
