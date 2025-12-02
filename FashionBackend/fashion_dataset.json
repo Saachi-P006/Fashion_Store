@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Blue Bodycon Dress",
+    "link": "https://example.com/dress1",
+    "price": "$49"
+  },
+  {
+    "name": "Flared Blue Maxi Dress",
+    "link": "https://example.com/dress2",
+    "price": "$59"
+  },
+  {
+    "name": "Red Wine Shirt",
+    "link": "https://example.com/shirt1",
+    "price": "$35"
+  }
+]

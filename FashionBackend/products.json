@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Blue Summer Dress",
+    "price": "$45",
+    "link": "https://www.amazon.com/example-product-1",
+    "image": "https://i.imgur.com/al545cd.jpeg",
+    "site": "Amazon"
+  },
+  {
+    "name": "Red Evening Dress",
+    "price": "$60",
+    "link": "https://www.myntra.com/example-product-2",
+    "image": "https://images.myntra.com/example2.jpg",
+    "site": "Myntra"
+  },
+  {
+    "name": "Floral Maxi Dress",
+    "price": "$50",
+    "link": "https://www.ajio.com/example-product-3",
+    "image": "https://images.ajio.com/example3.jpg",
+    "site": "Ajio"
+  }
+]

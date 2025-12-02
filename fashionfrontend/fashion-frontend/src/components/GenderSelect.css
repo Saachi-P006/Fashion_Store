@@ -1,0 +1,53 @@
+.gender-select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 150px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.gender-select .buttons {
+  display: flex;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+/* Gender buttons */
+.gender-select button {
+  padding: 18px 40px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Women */
+.gender-select .women {
+  background: linear-gradient(135deg, #ffb6c1, #ff69b4);
+  color: #fff;
+}
+
+.gender-select .women:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(255, 105, 180, 0.4);
+}
+
+/* Men */
+.gender-select .men {
+  background: linear-gradient(135deg, #5a1f2c, #8b0000);
+  color: #fff;
+}
+
+.gender-select .men:hover {
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 10px 20px rgba(139, 0, 0, 0.4);
+}
+
+/* Fade in effect */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}

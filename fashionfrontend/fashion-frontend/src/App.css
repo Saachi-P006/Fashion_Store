@@ -1,0 +1,54 @@
+/* ---------------- App background based on gender ---------------- */
+.App {
+  min-height: 100vh;
+  transition: background 0.5s ease, color 0.5s ease;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Women selected: pink aesthetic */
+.App.women {
+  background: linear-gradient(135deg, #ffd6e0, #ffc0cb);
+  color: #333;
+}
+
+/* Men selected: dark wine aesthetic */
+.App.men {
+  background: linear-gradient(135deg, #4b0e1d, #800020);
+  color: #fff;
+}
+
+/* ---------------- Grid layout for results ---------------- */
+.results-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 24px;
+  margin: 30px;
+  padding: 10px;
+}
+
+/* ---------------- Men section overrides (text colors inside cards) ---------------- */
+.App.men .product-card h3,
+.App.men .product-card .brand-name,
+.App.men .product-card .rating,
+.App.men .product-card .price {
+  color: #000; /* black for men */
+}
+
+/* ---------------- Women section overrides ---------------- */
+.App.women .product-card h3,
+.App.women .product-card .brand-name,
+.App.women .product-card .rating {
+  color: #222; /* dark text for women section */
+}
+
+.App.women .product-card .price {
+  color: #2e7d32; /* green price for women */
+}
+
+/* ---------------- Mobile responsive ---------------- */
+@media (max-width: 600px) {
+  .results-grid {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 16px;
+  }
+}

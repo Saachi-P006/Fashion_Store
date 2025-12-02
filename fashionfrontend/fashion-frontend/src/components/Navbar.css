@@ -1,0 +1,146 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 18px 12px;
+  box-sizing: border-box;
+  background: #fff;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-box {
+  width: min(820px, 92%);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.search-input {
+  flex: 1;
+  padding: 14px 18px;
+  border-radius: 999px;
+  border: 2px solid #e6e6e6;
+  font-size: 16px;
+  outline: none;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.04);
+  transition: box-shadow .24s ease, border-color .24s ease;
+}
+
+.search-input:focus {
+  border-color: #ff69b4;
+  box-shadow: 0 10px 24px rgba(255,105,180,0.12);
+}
+
+.category-filters {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  max-width: min(1000px, 95%);
+  padding: 0 12px;
+  box-sizing: border-box;
+}
+
+.category-filters + .category-filters {
+  margin-top: 12px;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #000;  
+  user-select: none;
+  background: rgba(255,255,255,0.08);
+  border-radius: 999px;
+  padding: 6px 12px;
+  border: 1px solid rgba(0,0,0,0.06);
+  transition: background .18s ease, transform .12s ease;
+}
+
+.pill input[type="checkbox"] {
+  appearance: none;
+  width: 0;
+  height: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.pill-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Women theme (pink pills) */
+.women-section .pill.selected {
+  background: #ff69b4;
+  color: #fff;
+  border-color: #ff69b4;
+}
+
+/* Men theme (black pills) */
+.men-section .pill.selected {
+  background: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+/* Switch Gender button */
+.switch-gender-btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+}
+
+/* Women theme */
+.women-section .switch-gender-btn {
+  background: #ff4081;
+  color: #fff;
+}
+
+.women-section .switch-gender-btn:hover {
+  background: #ff79a7;
+  transform: scale(1.05);
+}
+
+/* Men theme */
+.men-section .switch-gender-btn {
+  background: #800020;
+  color: #fff;
+}
+
+.men-section .switch-gender-btn:hover {
+  background: #a00030;
+  transform: scale(1.05);
+}
+
+/* ---------------- Price label above slider ---------------- */
+.price-filter label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #333; /* default color */
+}
+
+/* Men section override */
+.men-section .price-filter label {
+  color: #000; /* black for men section */
+}
+
+/* Women section override */
+.women-section .price-filter label {
+  color: #333; /* dark text for women section */
+}
