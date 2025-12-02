@@ -10,29 +10,52 @@ This pivot demonstrates practical problem-solving, product thinking, and real-wo
 
 📸 Screenshots
 
+<img width="1050" height="634" alt="Screenshot 2025-12-02 141746" src="https://github.com/user-attachments/assets/7f733459-29c3-4f5b-a466-fc878c6d4d06" />
+
+<img width="1899" height="863" alt="Screenshot 2025-12-02 141822" src="https://github.com/user-attachments/assets/e5859b45-f032-40eb-951c-fdbb67e6be29" />
+
+<img width="1688" height="865" alt="Screenshot 2025-12-02 141858" src="https://github.com/user-attachments/assets/82f0a2e0-e055-47fc-9f29-e22bc0448231" />
+
+<img width="1896" height="862" alt="Screenshot 2025-12-02 141955" src="https://github.com/user-attachments/assets/258cd520-08b0-4fb4-bd46-0acb77d85e69" />
+
+
+
 🎯 Core Features
 
 Smart Search Bar — instantly filters through products by name, brand or category.
+
 Gender Toggle (Women / Men) — dynamically switches entire sections and filters.
+
 Category Filters — curated tags for quick browsing.
+
 Price Range Filter — interactive price slider (set to ₹0 – ₹50,000).
+
 Responsive Product Cards — clean layout with brand, price & rating.
+
 Clean Navbar — simple, intuitive UI with a modern look.
+
 Fully Responsive Design — works smoothly across desktop, tablet, mobile.
 
 🛠️ Tech Stack
 
 Frontend
+
 React.js
+
 CSS3
+
 Responsive Layout Design
 
 Backend
+
 Node.js
+
 Express.js
 
 Tools
+
 Git & GitHub
+
 VS Code
 
 📌 Future Improvements 
