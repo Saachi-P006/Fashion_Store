@@ -2,6 +2,7 @@
 
 A modern web application for discovering and browsing fashion products with smart filters, smooth UI, and a clean user experience. ✨
 
+
 🌟 Overview
 
 The Fashion Recommendation Website is a full-stack web application designed to help users browse fashion products effortlessly using:
@@ -19,6 +20,7 @@ This pivot demonstrates:
 ✅ Product thinking
 ✅ Real-world development adaptation
 
+
 📸 Screenshots
 
 <img width="1050" height="634" alt="Screenshot 2025-12-02 141746" src="https://github.com/user-attachments/assets/7f733459-29c3-4f5b-a466-fc878c6d4d06" />
@@ -28,6 +30,7 @@ This pivot demonstrates:
 <img width="1688" height="865" alt="Screenshot 2025-12-02 141858" src="https://github.com/user-attachments/assets/82f0a2e0-e055-47fc-9f29-e22bc0448231" />
 
 <img width="1896" height="862" alt="Screenshot 2025-12-02 141955" src="https://github.com/user-attachments/assets/258cd520-08b0-4fb4-bd46-0acb77d85e69" />
+
 
 🎯 Core Features
 
@@ -44,6 +47,7 @@ This pivot demonstrates:
 🧭 Clean Navbar — Simple, intuitive UI with a modern look.
 
 📱 Fully Responsive Design — Works smoothly across desktop, tablet, and mobile.
+
 
 🛠️ Tech Stack
 
@@ -66,6 +70,7 @@ Tools
 🐙 Git & GitHub
 
 💻 VS Code
+
 
 📌 Future Improvements
 
